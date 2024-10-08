@@ -1,0 +1,11 @@
+<form hx-post "/todo/add" hx-target="#todoList" hx-swap="beforeend" hx-include="#inputItem">
+    <div class="mb-3">
+        <label for ="inputItem" class="form-label">New to Do item</label>
+        <input type="type" class="form-control" id="inputItem" name="item" required>
+
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Add New Item</button>
+
+    </div>
+</form>
